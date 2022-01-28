@@ -60,3 +60,29 @@ a {
 .header-menu li:first-child a {
   padding-left: 0px;
 }
+
+/* Main */
+
+/* Side Nav*/
+
+.side-nav {
+  width: 300px;
+  background: #252525;
+  float: left;
+}
+
+.side-nav li a {
+  display: block;
+  color: #fff;
+  border-bottom: 2px solid #484846;
+  font-size: 1.125em;
+  padding: 15px 20px 20px 20px;
+}
+
+.side-nav li a::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/icones.png');
+}
